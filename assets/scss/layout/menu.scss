@@ -1,0 +1,35 @@
+
+header{
+    border-bottom: 2px solid #3a3b3b;
+    background-color: #102;
+
+          
+    
+    .menu{
+        display:flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 5vh;
+        color:#fff;
+    }
+    .menu ul{
+        display: inline-block;
+        
+        a{
+            text-decoration: none;
+            font-weight:500;
+            color:#bb9fbd;
+            font-size:16px;
+        }
+        a:hover{
+            color:#a558ac;
+        }
+        a:visited{
+            color:#fff;
+        }
+        li{
+            list-style: none;
+           
+        }
+    }
+}

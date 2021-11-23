@@ -1,0 +1,102 @@
+section {
+  &.banner {
+    height: 100vh;
+
+    img {
+      width: 4.3rem;
+      padding-right:1.5rem;
+    }
+    .banner {
+      background-image: url(../image/copiabanner01.jpg);
+      object-fit: cover;
+      background-attachment: scroll;
+      background-repeat: no-repeat;
+      background-position: bottom;
+      background-size: 100%;
+      opacity: 0.8;
+      padding: 30px;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      
+
+      .menu{
+          display:flex;
+          justify-content: flex-end;
+          align-items: flex-start;
+          height: 30vh;
+          
+      
+         ul{
+          display: inline-block;
+          
+          a{
+              text-decoration: none;
+              font-weight:600;
+              color:#260929;
+              font-size:1.1rem;
+          }
+          a:hover{
+              color:#a558ac;
+          }
+          a:visited{
+              color:#fff;
+          }
+          li{
+              list-style: none;
+             
+          }
+      }
+      }
+      .information {
+        display: flex;
+        //flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+
+        img{
+          border-radius: 50%;
+          width: 35%;
+          margin-top: 2.5rem;
+          transform: rotate(30deg);
+          
+        }
+        .information2{
+          display: flex;
+          width: 50%;
+          flex-direction: column;
+          color:#260929;
+          h1 {
+            padding: 0 3.5rem;
+            width: 100%;
+            font-weight: 500;
+            font-size: 2.06rem;
+            text-transform: uppercase;
+            line-height: 4rem;
+          }
+          p {
+            //text-shadow: #331f2f 0.1rem 0.1em 0.3em;
+            padding: 0 3.5rem;
+            text-align: justify;
+            font-family: "Sen", sans-serif;
+            line-height: 30px;
+            font-weight: 600;
+            font-size: 1.3rem;
+            
+          }
+        }
+        
+        
+      }
+      .icons {
+        text-align: center;
+        
+        img{
+          width: 5rem;
+          padding-bottom: 2rem;
+        }
+      }
+    }
+  }
+}

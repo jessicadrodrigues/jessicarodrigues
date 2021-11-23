@@ -1,0 +1,35 @@
+section {
+  &.portfolio {
+    background-color: #3a3b3b;
+
+    .container {
+      height: 100vh;
+      max-width: 100%;
+
+      .header {
+        width: 100%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        text-align: center;
+        color: #bb9fbd;
+        font-size: 18px;
+        border-bottom: 2px solid #5a4057;
+      }
+      .main {
+        padding-top: 100px;
+        display: flex;
+        width: 100%;
+
+        .miniatura {
+          padding: 15px 15px 7px;
+          width: calc(100% / 3);
+
+          img {
+            width: 100%;
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+  }
+}
