@@ -1,18 +1,20 @@
 section {
     &.contact {
     width: 100%;
-    height: 100vh;
-    background-color: #3a3b3b;
+    height: 95%;
+    background-color: #1d0c21;;
 
     .header {
       display: flex;
-      padding-top: 25px;
+      padding-top: 50px;
       padding-bottom: 25px;
       text-align: center;
       justify-content: center;
       color: #bb9fbd;
       font-size: 18px;
-      border-bottom: 2px solid #5a4057;
+      border-top: 2px solid #5a4057;
+      text-transform: uppercase;
+
     }
     .container {
       max-width: 1136px;
@@ -20,11 +22,12 @@ section {
       display: flex;
       align-items: center;
       justify-content: center;
+      padding-left: 200px;
 
       form .tentativa1000 {
-        width: 100%;
+        width: 1136px;
         display: flex;
-        justify-content: space-between;
+        
 
         .item {
           width: 50%;
@@ -41,9 +44,8 @@ section {
             border: none;
             font-family: "Sen", sans-serif;
           }
-        }
-        .item-2 {
-          width: 50%;
+        
+        
 
           .message textarea {
             width: 100%;
@@ -58,9 +60,11 @@ section {
           }
         }
       }
+      
     }
     form .send {
       text-align: right;
+      width: 100px;
 
       input {
         font-weight: 600;
@@ -74,19 +78,18 @@ section {
         font-family: "Sen", sans-serif;
       }
     }
-    .email-dev {
-      padding-top: 7px;
-      margin-left: 5px;
+    .items {
+      margin: auto;
+      margin-top: -1px;
       display: flex;
+      flex-wrap: wrap;
+      align-items: center;
 
-      img {
-        width: 30px;
-      }
+    img{
+      width: 80px;
+      padding: 10px;
     }
-    .email {
-      padding-left: 10px;
-      color: #bb9fbd;
-      font-weight: 500;
     }
+    
   }
 }
