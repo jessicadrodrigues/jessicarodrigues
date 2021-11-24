@@ -1,0 +1,174 @@
+@media screen and (max-width:640px){
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container-main{
+        width: 100vw;
+        font-size: 16px;
+        font-family: "Sen", sans-serif;
+        color:#a558ac;
+        background-color:#1d0c21;
+
+        img{
+            width: 45vw;
+        }
+
+        .banner{
+            
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            width: 100vw;
+            height: 50%;
+            
+            .banner{
+                .menu{
+                    display: none;
+                }
+                .information{
+                    width: 100vw;
+                    text-align: center;
+                    img{
+                        width: 35vw;
+                        padding-top: 2rem;
+                        border-radius: 50%;
+                    }
+                    .information2{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        font-size: 0.9rem;
+                        
+                        h1{
+                            padding: 1rem 0 0 0 ;
+                        }
+                        p{
+                            padding: 1rem 0; 
+                            width: 80vw;
+                        }
+                        
+                    }
+                    
+                }
+                .icons{
+                    width: 100vw;
+                    text-align: center;
+                    margin-top: -1rem;
+                    
+                    img{
+                        width: 20vw;
+                        padding:5vw;
+                    }
+                }
+            }
+        }
+
+        #portfolio{
+            width: 100vw;
+            .container{
+                width: 100vw;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .header{
+                    width: 100vw;
+                    border-top: solid 0.02rem #a558ac;
+                    
+
+                    h2{
+                        padding: 1rem 0;
+                        font-size: 1rem;
+                        text-transform: uppercase;
+                        text-align: center;
+                    }
+                }
+                .main{
+                    width: 80vw;
+        
+                    .miniatura{
+                        padding-bottom: 2rem;
+                        img{
+                            width: 80vw;
+                            
+                        }
+
+                    }
+                }
+            }
+        }
+
+        #contact{
+            width: 100vw;
+            //height: 100vh;
+            display: flex;
+            flex-direction: column;
+            .header{
+                width: 100vw;
+                border-top: solid 0.02rem #a558ac;
+                
+
+                h2{
+                    padding: 1rem 0;
+                    font-size: 0.7rem;
+                    text-transform: uppercase;
+                    text-align: center;
+                }
+            }
+            .container{
+                .tentativa1000{
+                    display: flex;
+                    flex-direction: column;
+                    
+                    
+                    .item{
+                        padding-left: 1rem;
+                        width: 80vw;
+                        
+                        .message{
+                        width: 80vw; 
+                            textarea{
+
+                            }   
+                        }
+                        
+                    }
+                    
+                    .items{
+                            display: flex;
+                            justify-content: center;
+                            padding-left: 1rem;
+                            .social{
+                                display: flex;
+                                padding-bottom:0.5rem;                         
+                                
+                            }
+                            img{  
+                                margin:0.3rem;
+                                width: 7vw;
+                            }
+                        
+                            
+                        
+                    }
+                }
+                
+            }
+        }
+
+        
+        }
+    
+        footer{
+            height: 10vh;
+            p{
+                font-size: 0.7rem;
+                text-align: center;
+            }
+        }
+}
