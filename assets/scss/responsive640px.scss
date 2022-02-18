@@ -42,7 +42,9 @@
                         font-size: 0.9rem;
                         
                         h1{
+                            text-transform: uppercase;
                             padding: 1rem 0 0 0 ;
+                            font-weight: 400;
                         }
                         p{
                             padding: 1rem 0; 
@@ -76,7 +78,7 @@
                 .header{
                     width: 100vw;
                     border-top: solid 0.02rem #a558ac;
-                    
+                    margin: auto;
 
                     h2{
                         padding: 1rem 0;
@@ -148,7 +150,7 @@
         }
     
         footer{
-            height: 10vh;
+            min-height: 5vh;
             p{
                 font-size: 0.7rem;
                 text-align: center;
