@@ -39,7 +39,7 @@
           display: flex;
           justify-content: flex-end;
           align-items: flex-start;
-          height: 5vh;
+          height: 13vh;
 
           ul {
             display: inline-block;
@@ -64,7 +64,7 @@
 
           img {
             border-radius: 50%;
-            width: 33%;
+            width: 27%;
             transform: rotate(30deg);
           }
           .information2 {
@@ -172,14 +172,14 @@
           justify-content: center;
           align-items: center;
 
-          .social {
+          .social{
             width: 100px;
             display: flex;
             padding-bottom: 0.5rem;
           }
           img {
-            margin: 0.3rem;
-            max-width: 50px;
+            margin: 0.45rem;
+            max-width: 45px;
           }
         }
       }
